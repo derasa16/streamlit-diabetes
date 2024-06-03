@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 
 #membaca model
-diabetes_model=pickle.load(open('/content/diabetes_model.sav','rb'))
+diabetes_model=pickle.load(open('C:/Users/ACER/Downloads/Big Project SSD/diabetes_model.sav','rb'))
 
 #judul web
 st.title('Prediksi Pasien Terkena Diabetes')
