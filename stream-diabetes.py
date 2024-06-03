@@ -8,14 +8,14 @@ diabetes_model=pickle.load(open('/content/diabetes_model.sav','rb'))
 st.title('Prediksi Pasien Terkena Diabetes')
 
 Age = st.text_input('Input Usia Pasien (Tahun)')
-Blood_Glucose_Level(BGL) = st.text_input('Input Kadar Gula Darah Pasien (mg/dl)')
+Blood_Glucose_Level = st.text_input('Input Kadar Gula Darah Pasien (mg/dl)')
 Diastolic_Blood_Pressure = st.text_input('Input Tekanan Darah Diastolik Pasien (mmHg)')
 Systolic_Blood_Pressure = st.text_input('Input Tekanan Darah Sistolik Pasien (mmHg)')
 Heart_Rate = st.text_input('Input Detak Jantung Pasien (bpm)')
 Body_Temperature = st.text_input('Input Suhu Tubuh Pasien (Fahrenheit)')
 SPO2 = st.text_input('Input SP02 Pasien (%)')
-Sweating_(Y/N) = st.text_input('Apakah Pasien Mengalami Kondisi Tubuh Berkeringat? (0=Tidak, 1=Ya)')
-Shivering_(Y/N) = st.text_input('Apakah Pasien Mengalami Kondisi Tubuh Gemetaran? (0=Tidak, 1=Ya)')
+Sweating = st.text_input('Apakah Pasien Mengalami Kondisi Tubuh Berkeringat? (0=Tidak, 1=Ya)')
+Shivering = st.text_input('Apakah Pasien Mengalami Kondisi Tubuh Gemetaran? (0=Tidak, 1=Ya)')
 
 #code untuk prediksi
 diab_diagnosis = ''
